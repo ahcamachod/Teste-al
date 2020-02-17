@@ -26,6 +26,29 @@ Branch inicial, branch Master
 $ git status
 On branch master
 
+Alvaro Camacho@DESKTOP-677B14I MINGW64 ~/Desktop/pasta_exemplo (master)
+$ git log
+commit b5d0f8321369c7fe96d2984898a8ebac1b613fc8 (HEAD -> master)
+Author: Alvaro Camacho <camacho_al@hotmail.com>
+Date:   Mon Feb 17 17:30:52 2020 -0300
+
+    last change
+
+commit acfde3b480520ffbe76c18df52f977cd1dbf00ae
+Author: Alvaro Camacho <camacho_al@hotmail.com>
+Date:   Mon Feb 17 17:25:42 2020 -0300
+
+    primeiro commit ok
+
+commit 7957eaa6284c6047d9d8743a83324ba95f591baa
+Author: Alvaro Camacho <camacho_al@hotmail.com>
+Date:   Mon Feb 17 17:22:17 2020 -0300
+
+    Este sera o primeiro commit, qualquer mensagem
+
+Alvaro Camacho@DESKTOP-677B14I MINGW64 ~/Desktop/pasta_exemplo (master)
+$
+
 No commits yet #(nao esta comprometido, nao rastreia)
 
 Untracked files: #(nao rastreia)
@@ -108,6 +131,8 @@ Alvaro Camacho@DESKTOP-677B14I MINGW64 ~/Desktop/pasta_exemplo (master)
 $ mv arquivo2.txt test/
 
 Alvaro Camacho@DESKTOP-677B14I MINGW64 ~/Desktop/pasta_exemplo (master)
+
+# exemplo status
 $ git status
 On branch master
 Changes to be committed:
